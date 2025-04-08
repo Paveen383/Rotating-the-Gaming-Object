@@ -38,6 +38,28 @@ Stop
 
 ## Program:
 
+      using System.Collections;
+      using System.Collections.Generic;
+      using UnityEngine;
+
+      public class Script : MonoBehaviour
+      {
+      // Start is called before the first frame update
+     void Start()
+     {
+        
+     }
+
+     // Update is called once per frame
+     void Update()
+     {
+         transform.RotateAround(Vector3.right,Vector3.up,50* Time.deltaTime);
+     }
+     }
+
+
 ## Output:
+![image](https://github.com/user-attachments/assets/af3992c8-aace-41ba-83bc-29971bc5f2ad)
 
 ## Result:
+Thus the output for rotating the object is successfully displayed.
